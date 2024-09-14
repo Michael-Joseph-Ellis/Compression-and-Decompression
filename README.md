@@ -1,9 +1,9 @@
-# Parallel Compression/Decompression Tool
-This project is a Python-based tool designed for efficient file compression and decompression using `zlib` and `multiprocessing`. By leveraging parallel processing, the tool can handle large datasets efficiently, making it suitable for general-purpose tasks or integration into larger projects.
+# Parallel Compression/Decompression Module
+This project is a Python-based module for efficient file compression and decompression using `zlib` and `multiprocessing`. By leveraging parallel processing, the tool can handle large datasets efficiently, making it suitable for general-purpose tasks or integration into larger projects.
 
 ## Features
 - **Parallel Processing**: Utilizes multiple CPU cores to speed up compression and decompression.
-- **Customizable Parameters**: Allows users to specify chunk size and the number of worker processes to optimize performance for different systems.
+- **Customizable Parameters**: Users can specify chunk size and the number of worker processes to optimize performance for different systems.
 - **Modular Design**: Can be easily integrated into larger projects.
 - **Wide File Format Support**: Works with any file type, as it reads and writes files in binary mode.
 - **User-Friendly**: Designed to be simple to run via command line or as part of other scripts/applications.
